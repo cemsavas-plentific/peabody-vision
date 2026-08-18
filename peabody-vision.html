@@ -29,11 +29,11 @@ section.tight{padding:80px 0}
 
 /* ---------- NAV ---------- */
 nav{position:sticky;top:0;z-index:50;background:rgba(13,23,38,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
-nav .wrap{display:flex;align-items:center;gap:24px;height:56px}
+nav .wrap{display:flex;align-items:center;gap:24px;min-height:56px;padding:8px 0}
 .brandlock{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:16px;color:#fff;letter-spacing:-.01em;white-space:nowrap}
 .brandlock .pea{color:var(--green)} .brandlock .ple{color:#fff} .brandlock .x{color:var(--ink40);font-weight:400}
-nav .links{margin-left:auto;display:flex;gap:22px;flex-wrap:wrap}
-nav .links a{color:#B8BFCA;text-decoration:none;font-size:13px;font-weight:500;transition:color .2s}
+nav .links{margin-left:auto;display:flex;gap:14px;row-gap:6px;flex-wrap:wrap;justify-content:flex-end;align-items:center}
+nav .links a{color:#B8BFCA;text-decoration:none;font-size:12.5px;font-weight:500;white-space:nowrap;transition:color .2s}
 nav .links a:hover{color:#fff}
 @media(max-width:860px){nav .links{display:none}}
 
@@ -220,7 +220,7 @@ footer .brandlock{font-size:15px}
       <a href="#vision">Vision</a>
       <a href="#assets">Assets</a>
       <a href="#why">Why now</a>
-      <a href="#promise">Resident promise</a>
+      <a href="#promise">Promise</a>
       <a href="#model">The model</a>
       <a href="#ai">AI</a>
       <a href="#intelligence">Intelligence</a>
